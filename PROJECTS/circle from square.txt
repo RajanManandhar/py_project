@@ -1,0 +1,17 @@
+import turtle
+a= turtle.Turtle()
+def square(g,b,c):
+  a.forward(g)
+  a.right(b)
+  a.forward(g)
+  a.right(b)
+  a.forward(g)
+  a.right(b)
+  a.forward(g)
+  a.right(c)
+  
+
+
+
+for i in range(100):
+  square(65,90,80)
